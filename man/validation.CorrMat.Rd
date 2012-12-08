@@ -13,7 +13,7 @@ validation.CorrMat(prop.vec.bin, CorrMat)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{prop.vec.bin}{
-Vector of binary (converted from ordinal) marginal probability
+Vector of binary (converted from ordinal) marginal probabilities
 }
   \item{CorrMat}{
 Correlation matrix to be validated

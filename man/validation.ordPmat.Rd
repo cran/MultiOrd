@@ -17,13 +17,13 @@ validation.ordPmat(ordPmat)
 }
 \details{
 Number of columns of input matrix is the number of variables and each column contains probability
-of each category within each variable. Any probabililty with 0 value must be entered at the end of corresponding column.
+of each category within each variable. Any probability with 0 value must be entered at the end of corresponding column.
 For example if a column contains c(0.3,0.5,0.2,0), then it is assumed that particular variable has only
 3 (1, 2 and 3) categories.
 }
 \value{
 
- \item{J }{Number of variables requested}
+ \item{J }{Number of ordinal variables}
  \item{K }{Vector of number of categories for each variable}
 
 }

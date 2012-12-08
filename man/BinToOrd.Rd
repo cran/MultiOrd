@@ -5,7 +5,7 @@
 Converts multivariate binary data to multivariate ordinal data
 }
 \description{
-Converts multivariate binary data to multivariate ordinal data using original probabilites.
+Converts multivariate binary data to multivariate ordinal data using original ordinal probabilities.
 }
 \usage{
 BinToOrd(prop.vec.bin, ordPmat, Mlocation, bin.data)
@@ -13,7 +13,7 @@ BinToOrd(prop.vec.bin, ordPmat, Mlocation, bin.data)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{prop.vec.bin}{
-Vector of binary probabilities. It is usually a first component of the 
+Vector of marginal probabilities. It is usually a first component of the 
 list returned by \code{\link{find.binary.prob}}
 }
   \item{ordPmat}{

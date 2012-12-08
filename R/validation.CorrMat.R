@@ -39,7 +39,7 @@ sqrt((q[i]*p[j])/(p[i]*q[j])))
 valid.state=TRUE
 for (i in 1:d){for (j in 1:d){ if(j >=i){
 if(sigma[i,j] < L_sigma[i,j] | sigma[i,j] > U_sigma[i,j]){ 
-stop("Range violation occured in the binary data generation routine! \n 
+stop("Range violation occurred in the binary data generation routine! \n 
   Corr[",i,",",j,"] must be between ", round(L_sigma[i,j],3),
  " and ",round(U_sigma[i,j],3),
  "\n This algorithm cannot generate ordinal data with specified correlations")

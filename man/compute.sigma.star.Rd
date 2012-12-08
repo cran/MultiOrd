@@ -15,10 +15,10 @@ compute.sigma.star(prop.vec.bin, corr.mat)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{prop.vec.bin}{
-    Vector of binary mariginal probabilities
+    Vector of marginal probabilities
 }
   \item{corr.mat}{
-	Correlation matrix for the binary data
+	Correlation matrix of the binary data
 }
 }
 \value{

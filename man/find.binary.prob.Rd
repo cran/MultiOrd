@@ -18,7 +18,7 @@ find.binary.prob(ordPmat)
 }
 
 \value{
-	  \item{p}{Vector of binary probabilites} 
+	  \item{p}{Vector of binary probabilities} 
 	  \item{Mlocation}{Vector of points where ordinal variables will be dichotomized}
 }
 

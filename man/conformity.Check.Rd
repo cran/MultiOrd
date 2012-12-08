@@ -16,6 +16,6 @@ conformity.Check(ordPmat, CorrMat)
 Input matrix of ordinal marginal probabilities
 }
   \item{CorrMat}{
-Correlation matrix of the multivariate ordinal variable.
+Correlation matrix of the multivariate ordinal data.
 }
 }

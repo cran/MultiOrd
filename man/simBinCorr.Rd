@@ -1,7 +1,7 @@
 \name{simBinCorr}
 \alias{simBinCorr}
 \title{
-Calculates intermediate binary correlation
+Calculates intermediate binary correlation matrix
 }
 \description{
 Calculates intermediate binary correlation matrix via simulation.
@@ -15,7 +15,7 @@ simBinCorr(ordPmat, CorrMat, nSim, steps = 0.025)
 	Input matrix of ordinal marginal probabilities
 }
   \item{CorrMat}{
-	Correlation matrix of the multivariate ordinal variables
+	Correlation matrix of the multivariate ordinal data
 }
   \item{nSim}{
 	Number of simulations to use to calculate intermediate binary correlation matrix

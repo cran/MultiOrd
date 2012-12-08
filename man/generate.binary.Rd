@@ -16,14 +16,14 @@ Generates multivariate binary data given marginal probabilities and correlation 
 	Number of observations
 }
   \item{prop.vec.bin}{
-    A Vector of binary marginal probabilities
+    	Vector of binary marginal probabilities
 }
   \item{corr.mat}{
-	A correlation matrix for the binary data
+	correlation matrix of the binary data
 }
 }
 \details{
-It generates multivariate binary data from the marginal probabilites and correlation matrix. It uses
+It generates multivariate binary data from the marginal probabilities and correlation matrix. It uses
 the algorithm described in Emrich and Piedmonte (1991). In the process, if the tetrachoric correlation
 matrix is non-positive definite, a nearest positive definite matrix is used.
 }

@@ -9,7 +9,7 @@ Mlocation=p$Mlocation
 del.next=CorrMat
 change=1
 iteration=0
-cat("calculating the intermidiate binary correlations. \n"); 
+cat("calculating the intermediate binary correlations. \n"); 
 while ( sum(change>0.001) >0) {
 iteration=iteration+1
 ep0 = generate.binary( nSim, pvec, del.next)
@@ -20,6 +20,6 @@ change = abs(CorrMat- Mydata$Corr)
 if(iteration%%40==0){cat("\n")}
 cat("."); 
 }
-cat("\n required ", iteration, " iterations to calculate intermidiate binary correlations. \n"); 
+cat("\n required ", iteration, " iterations to calculate intermediate binary correlations. \n"); 
 return(list(del.next=del.next, Mlocation=Mlocation, pvec=pvec) )
 }
