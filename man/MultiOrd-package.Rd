@@ -13,8 +13,8 @@ correlation matrix based on the methodology proposed by Demirtas (2006).
 \tabular{ll}{
 Package: \tab MultiOrd\cr
 Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2012-12-08\cr
+Version: \tab 2.1\cr
+Date: \tab 2014-03-05\cr
 License: \tab GPL-2
 }
 This package can be used to generate multivariate ordinal data. Two main input required are matrix of marginal probabilities of each variable and the correlation matrix of the ordinal variables. Due to the limitation on the magnitude of the binary correlations which depends on the marginal probabilities, off-diagonal entries of ordinal correlation matrix are not free to vary between -1 and 1.  

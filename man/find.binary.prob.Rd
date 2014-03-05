@@ -23,11 +23,13 @@ find.binary.prob(ordPmat)
 }
 
 \examples{
+\dontrun{
 ordPmat1 = matrix( c(0.15,0.70,0.40,
 					0.55,0.10,0.25,
 					0.25,0.10,0.15,
 					0.05,0.10,0.20),4,3,byrow=TRUE)
 find.binary.prob(ordPmat1)
+}
  
 }
 \seealso{

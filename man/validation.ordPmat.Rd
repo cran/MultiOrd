@@ -29,12 +29,14 @@ For example if a column contains c(0.3,0.5,0.2,0), then it is assumed that parti
 }
 
 \examples{
+\dontrun{
 # 3 outcomes with 3, 4 and 4 categories.
 ordPmat1 = matrix( c(0.15,0.70,0.40,
 					0.55,0.10,0.25,
 					0.30,0.10,0.15,
 					0,0.10,0.20),4,3,byrow=TRUE)
 validation.ordPmat(ordPmat1)
+}
 
 }
 
