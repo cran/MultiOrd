@@ -1,2 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 import(mvtnorm, corpcor, Matrix, psych)
+importFrom("stats", "cor", "qnorm")
+
