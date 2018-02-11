@@ -1,8 +1,8 @@
 Package: MultiOrd
 Type: Package
 Title: Generation of Multivariate Ordinal Variates
-Version: 2.2
-Date: 2016-05-20
+Version: 2.3
+Date: 2018-02-02
 Author: Anup Amatya and Hakan Demirtas
 Maintainer: Anup Amatya <aamatya@nmsu.edu>
 Depends: mvtnorm, corpcor, Matrix, psych
@@ -10,6 +10,6 @@ Description: A method for multivariate ordinal data generation given marginal di
 License: GPL-2
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2016-05-20 19:48:03 UTC; aamatya
+Packaged: 2018-02-02 19:01:27 UTC; aMATYA
 Repository: CRAN
-Date/Publication: 2016-05-21 00:03:38
+Date/Publication: 2018-02-11 14:13:41 UTC
