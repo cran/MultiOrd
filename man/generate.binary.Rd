@@ -5,14 +5,14 @@
 Generates multivariate binary data given marginal probabilities and correlation.
 }
 \usage{
-generate.binary(no.rows, prop.vec.bin, corr.mat)
+generate.binary(nObs, prop.vec.bin, corr.mat)
 }
 \description{
 Generates multivariate binary data given marginal probabilities and correlation based on algorithm described in Emrich and Piedmonte (1991).
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{no.rows}{
+  \item{nObs}{
 	Number of observations
 }
   \item{prop.vec.bin}{
@@ -44,7 +44,7 @@ matrix is non-positive definite, a nearest positive definite matrix is used.
 				0.2,1,0.2,
 				0.2,0.2,1),3,3,byrow=TRUE)}
 \dontrun{p=find.binary.prob(ordPmat1) }
-\dontrun{finalCorr = simBinCorr(ordPmat1, cmat1, nSim=100000)}
+\dontrun{finalCorr = simBinCorr(ordPmat1, cmat1, no.rows=100000)}
 \dontrun{y=generate.binary( 1000, p$p, finalCorr$del.next)}
 }
 

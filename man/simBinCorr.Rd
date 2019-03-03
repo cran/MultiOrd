@@ -7,7 +7,7 @@ Calculates intermediate binary correlation matrix
 Calculates intermediate binary correlation matrix via simulation.
 }
 \usage{
-simBinCorr(ordPmat, CorrMat, nSim, steps = 0.025)
+simBinCorr(ordPmat, CorrMat, no.rows, steps = 0.025)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,8 +17,8 @@ simBinCorr(ordPmat, CorrMat, nSim, steps = 0.025)
   \item{CorrMat}{
 	Correlation matrix of the multivariate ordinal data
 }
-  \item{nSim}{
-	Number of simulations to use to calculate intermediate binary correlation matrix
+  \item{no.rows}{
+	Number of rows to use to calculate intermediate binary correlation matrix
 }
   \item{steps}{
 	Fraction of difference between the current and target matrix to be added in each iteration.
@@ -42,6 +42,6 @@ simBinCorr(ordPmat, CorrMat, nSim, steps = 0.025)
 \dontrun{cmat1= matrix( 	c(1,0.2,0.2,
 				0.2,1,0.2,
 				0.2,0.2,1),3,3,byrow=TRUE)}
-\dontrun{simBinCorr(ordPmat1, cmat1, nSim=100000, steps = 0.025)}
+\dontrun{simBinCorr(ordPmat1, cmat1, no.rows=100000, steps = 0.025)}
 				
 }

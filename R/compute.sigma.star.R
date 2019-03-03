@@ -11,7 +11,7 @@ sigmaBB = diag(no.bin)
 for (i in 1:no.bin) {
 for (j in 1:no.bin) {
 if (i != j) {
-  sigmaBB[i, j] = phi2poly(sigma[i, j], p[i], p[j]) }
+  sigmaBB[i, j] = phi2tetra(sigma[i, j], c(p[i], p[j])) }
 }
 }
 if(!is.positive.definite(sigmaBB)){

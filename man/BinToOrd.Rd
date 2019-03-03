@@ -37,7 +37,7 @@ multivariate ordinal data.
   \item{Corr}{Correlation matrix of \code{y}}
 }
 \examples{
-\dontrun{	nObs = 1000; nSim = 100000 }
+\dontrun{	nObs = 1000; no.rows = 100000 }
 \dontrun{	ordPmat1 = matrix( c(0.15,0.70,0.40,
 					0.55,0.10,0.25,
 					0.25,0.10,0.15,
@@ -47,7 +47,7 @@ multivariate ordinal data.
 				0.2,1,0.2,
 				0.2,0.2,1),3,3,byrow=TRUE) }
 				
-\dontrun{	binObj = simBinCorr(ordPmat1, cmat1, nSim) }
+\dontrun{	binObj = simBinCorr(ordPmat1, cmat1, no.rows) }
 \dontrun{	ep0 = generate.binary( nObs, binObj$pvec, binObj$del.next) }
 \dontrun{	Mydata= BinToOrd(binObj$pvec, ordPmat1, binObj$Mlocation, ep0) 	}
 }

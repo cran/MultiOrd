@@ -9,11 +9,11 @@ Generates multivariate ordinal data from the ordinal marginal probabilities and 
 by the \code{\link{simBinCorr}} function.
 }
 \usage{
-genOrd(nObs, ordPmat, binObj)
+genOrd(no.rows, ordPmat, binObj)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{nObs}{
+  \item{no.rows}{
  Number of rows
 }
   \item{ordPmat}{
@@ -43,7 +43,7 @@ Input matrix of ordinal marginal probabilities
 \dontrun{cmat1= matrix( 	c(1,0.2,0.2,
 				0.2,1,0.2,
 				0.2,0.2,1),3,3,byrow=TRUE) }
-\dontrun{binObj=simBinCorr(ordPmat1, cmat1, nSim=100000, steps=0.025)	}	
+\dontrun{binObj=simBinCorr(ordPmat1, cmat1, no.rows=100000, steps=0.025)	}	
 \dontrun{myData = genOrd( 1000, ordPmat1, binObj)	}	
 }
 

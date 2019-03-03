@@ -1,5 +1,5 @@
 simBinCorr <-
-function(ordPmat, CorrMat, nSim, steps=0.025){
+function(ordPmat, CorrMat, no.rows, steps=0.025){
 
 conformity.Check(ordPmat, CorrMat)
 p=find.binary.prob(ordPmat) # range of p is checked here
@@ -12,7 +12,7 @@ iteration=0
 cat("calculating the intermediate binary correlations. \n"); 
 while ( sum(change>0.001) >0) {
 iteration=iteration+1
-ep0 = generate.binary( nSim, pvec, del.next)
+ep0 = generate.binary( no.rows, pvec, del.next)
 Mydata= BinToOrd(pvec, ordPmat, Mlocation, ep0)
 if (iteration<15){del.next = del.next + ( CorrMat - Mydata$Corr )*0.9}
 else {del.next = del.next + ( CorrMat - Mydata$Corr )*steps}
