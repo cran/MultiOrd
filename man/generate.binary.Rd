@@ -8,7 +8,7 @@ Generates multivariate binary data given marginal probabilities and correlation.
 generate.binary(nObs, prop.vec.bin, corr.mat)
 }
 \description{
-Generates multivariate binary data given marginal probabilities and correlation based on algorithm described in Emrich and Piedmonte (1991).
+Generates multivariate binary data given marginal probabilities and correlation based on the algorithm described in Emrich and Piedmonte (1991).
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

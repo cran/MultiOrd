@@ -24,7 +24,7 @@ Input matrix of ordinal marginal probabilities
 }
 }
 \details{
- It generates multivariate ordinal data. The argument \strong{binObj} must be calculated using \code{\link{simBinCorr}} before executing this function.
+ It generates multivariate ordinal data. The argument \strong{binObj} must be obtained using \code{\link{simBinCorr}} before executing this function.
 }
 \value{
 \item{Mydata}{A list with two components. Two components are a matrix of multivariate 
