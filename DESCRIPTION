@@ -1,8 +1,8 @@
 Package: MultiOrd
 Type: Package
 Title: Generation of Multivariate Ordinal Variates
-Version: 2.4.2
-Date: 2020-05-02
+Version: 2.4.3
+Date: 2021-03-05
 Author: Anup Amatya, Hakan Demirtas, Ran Gao
 Maintainer: Ran Gao <rgao8@uic.edu>
 Depends: mvtnorm, corpcor, Matrix, psych
@@ -10,6 +10,6 @@ Description: A method for multivariate ordinal data generation given marginal di
 License: GPL-2
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2020-05-02 19:33:32 UTC; rangao
+Packaged: 2021-03-05 17:43:42 UTC; rangao
 Repository: CRAN
-Date/Publication: 2020-05-02 20:00:02 UTC
+Date/Publication: 2021-03-05 18:40:03 UTC
