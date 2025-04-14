@@ -25,5 +25,5 @@ compute.sigma.star(prop.vec.bin, corr.mat)
 Tetrachoric correlation matrix
 }
 \seealso{
-\code{\link{phi2tetra}} and \code{\link{nearPD}}
+\code{\link[psych]{phi2tetra}} and \code{\link[Matrix]{nearPD}}
 }

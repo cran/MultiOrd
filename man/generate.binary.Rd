@@ -33,7 +33,7 @@ matrix is non-positive definite, a nearest positive definite matrix is used.
 
 
 \seealso{
- \code{\link{nearPD}},  \code{\link{compute.sigma.star}}
+ \code{\link[Matrix]{nearPD}},  \code{\link{compute.sigma.star}}
 }
 \examples{
 \dontrun{ordPmat1 = matrix( c(0.15,0.70,0.40,

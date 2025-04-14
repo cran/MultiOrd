@@ -1,4 +1,4 @@
-4680bc71238093fb7b236a7f1bf7f0b2 *DESCRIPTION
+385f9afd750c17760d39fcecc0f059c8 *DESCRIPTION
 386b96aa486871709f9ef653d6c0d6ac *NAMESPACE
 4b03d7472c5d636ef8e3990e178748fe *R/BinToOrd.R
 440d57df8346fdae94bd8df85d3e2257 *R/compute.sigma.star.R
@@ -10,12 +10,12 @@ cd62e7f288507cfcd6d70f8c6c2ae084 *R/genOrd.R
 de50b3efd1ec68902d5ce577770208ee *R/validation.CorrMat.R
 491477e23181efd969c3c65f71736371 *R/validation.ordPmat.R
 b2e9d977d9704fcb100e8f76f9501254 *man/BinToOrd.Rd
-47a7eb2f2f7bbca3bd723651fec76d30 *man/MultiOrd-package.Rd
-d9547fa886c7e1dc4f6814d713a72b45 *man/compute.sigma.star.Rd
+810ba181753d17e293cfe6c55b831bbb *man/MultiOrd-package.Rd
+43b7cfaf264b43ba6d6ab26d295d027f *man/compute.sigma.star.Rd
 0c495ccf459c2ed6454e163ed532deb2 *man/conformity.Check.Rd
 279f553177237b7cf0c0bfba7dfedbb8 *man/find.binary.prob.Rd
 598dcacc3ba130dfa8b09ccd2d6a9473 *man/genOrd.Rd
-9ff277255723595a1712cc2172989706 *man/generate.binary.Rd
+15300e4c3a77c688388246726a1acbba *man/generate.binary.Rd
 8a69267a89121f94b8efc99d50c805ac *man/simBinCorr.Rd
 69c2d3ca294d53e6413703ea2b7b9146 *man/validation.CorrMat.Rd
 4421991de671355c7d2dd2014d9eb245 *man/validation.ordPmat.Rd
